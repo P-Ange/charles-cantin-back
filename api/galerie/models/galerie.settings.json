@@ -26,9 +26,9 @@
     "Date": {
       "type": "date"
     },
-    "categorie_galeries": {
-      "via": "galerie",
-      "collection": "categorie-galerie"
+    "categorie_galerie": {
+      "via": "galeries",
+      "model": "categorie-galerie"
     }
   }
 }
