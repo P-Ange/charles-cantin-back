@@ -1,19 +1,21 @@
 {
-  "kind": "singleType",
-  "collectionName": "globals",
+  "kind": "collectionType",
+  "collectionName": "tarif_solos",
   "info": {
-    "name": "SEO",
-    "description": ""
+    "name": "Tarif Solo"
   },
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "favicon": {
-      "model": "file",
+    "Descriptif": {
+      "type": "string"
+    },
+    "Illustation": {
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -24,9 +26,9 @@
       "required": false,
       "pluginOptions": {}
     },
-    "siteName": {
-      "type": "string",
-      "required": true
+    "categorie_tarif": {
+      "via": "tarif_solos",
+      "model": "tarifs"
     }
   }
 }

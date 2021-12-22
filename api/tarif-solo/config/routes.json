@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tarif-solos",
+      "handler": "tarif-solo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tarif-solos/count",
+      "handler": "tarif-solo.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tarif-solos/:id",
+      "handler": "tarif-solo.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tarif-solos",
+      "handler": "tarif-solo.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tarif-solos/:id",
+      "handler": "tarif-solo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tarif-solos/:id",
+      "handler": "tarif-solo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
