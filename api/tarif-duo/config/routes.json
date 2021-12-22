@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tarif-duos",
+      "handler": "tarif-duo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tarif-duos/count",
+      "handler": "tarif-duo.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tarif-duos/:id",
+      "handler": "tarif-duo.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tarif-duos",
+      "handler": "tarif-duo.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tarif-duos/:id",
+      "handler": "tarif-duo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tarif-duos/:id",
+      "handler": "tarif-duo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

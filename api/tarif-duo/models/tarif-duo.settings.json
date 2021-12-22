@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tarif_duos",
+  "info": {
+    "name": "Tarif Duo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Descriptif": {
+      "type": "string"
+    },
+    "Illustration": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "categorie_tarif": {
+      "via": "tarif_duos",
+      "model": "tarifs"
+    }
+  }
+}
