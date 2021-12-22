@@ -28,7 +28,7 @@
       "pluginOptions": {}
     },
     "categorie_tarif": {
-      "via": "tarif_solos",
+      "via": "solos",
       "model": "tarifs"
     }
   }

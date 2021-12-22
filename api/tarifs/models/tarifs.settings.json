@@ -15,13 +15,13 @@
     "Tarif": {
       "type": "string"
     },
-    "tarif_solos": {
-      "via": "categorie_tarif",
-      "collection": "tarif-solo"
+    "solos": {
+      "collection": "tarif-solo",
+      "via": "categorie_tarif"
     },
-    "tarif_duos": {
-      "via": "categorie_tarif",
-      "collection": "tarif-duo"
+    "duos": {
+      "collection": "tarif-duo",
+      "via": "categorie_tarif"
     }
   }
 }
