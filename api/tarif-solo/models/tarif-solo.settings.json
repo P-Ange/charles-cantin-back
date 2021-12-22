@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "tarif_solos",
   "info": {
-    "name": "Solos",
+    "name": "Tarifs",
     "description": ""
   },
   "options": {
@@ -26,10 +26,6 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
-    },
-    "categorie_tarif": {
-      "via": "solos",
-      "model": "tarifs"
     }
   }
 }
