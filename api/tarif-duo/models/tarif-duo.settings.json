@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "tarif_duos",
   "info": {
-    "name": "Tarif Duo",
+    "name": "Duo",
     "description": ""
   },
   "options": {

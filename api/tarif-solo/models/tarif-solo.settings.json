@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "tarif_solos",
   "info": {
-    "name": "Tarif Solo",
+    "name": "Solos",
     "description": ""
   },
   "options": {
