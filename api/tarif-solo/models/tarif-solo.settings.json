@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "tarif_solos",
   "info": {
-    "name": "Tarif Solo"
+    "name": "Tarif Solo",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -12,9 +13,9 @@
   "pluginOptions": {},
   "attributes": {
     "Descriptif": {
-      "type": "string"
+      "type": "text"
     },
-    "Illustation": {
+    "Illustration": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [

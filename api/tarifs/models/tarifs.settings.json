@@ -16,12 +16,12 @@
       "type": "string"
     },
     "tarif_solos": {
-      "collection": "tarif-solo",
-      "via": "categorie_tarif"
+      "via": "categorie_tarif",
+      "collection": "tarif-solo"
     },
     "tarif_duos": {
-      "collection": "tarif-duo",
-      "via": "categorie_tarif"
+      "via": "categorie_tarif",
+      "collection": "tarif-duo"
     }
   }
 }
