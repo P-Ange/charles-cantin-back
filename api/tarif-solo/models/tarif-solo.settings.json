@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Descriptif": {
-      "type": "text"
-    },
     "Illustration": {
       "collection": "file",
       "via": "related",
@@ -26,6 +23,15 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "Descriptifs": {
+      "type": "richtext"
+    },
+    "Prix": {
+      "type": "string"
+    },
+    "Titre": {
+      "type": "string"
     }
   }
 }
