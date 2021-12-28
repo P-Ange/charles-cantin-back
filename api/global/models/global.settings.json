@@ -16,16 +16,18 @@
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
-        "files",
-        "videos"
+        "images"
       ],
       "plugin": "upload",
-      "required": false,
+      "required": true,
       "pluginOptions": {}
     },
     "siteName": {
       "type": "string",
+      "required": true
+    },
+    "MetaDescription": {
+      "type": "text",
       "required": true
     }
   }
