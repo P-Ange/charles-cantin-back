@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "informations",
+  "info": {
+    "name": "Informations"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "Telephone": {
+      "type": "string",
+      "required": true
+    },
+    "Facebook": {
+      "type": "string",
+      "required": true,
+      "default": "https://www.facebook.com/"
+    },
+    "Instagram": {
+      "type": "string",
+      "required": true,
+      "default": "https://www.instagram.com/"
+    }
+  }
+}

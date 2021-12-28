@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "accueils",
+  "info": {
+    "name": "Accueil"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "Titre": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
