@@ -25,10 +25,6 @@
     "siteName": {
       "type": "string",
       "required": true
-    },
-    "MetaDescription": {
-      "type": "text",
-      "required": true
     }
   }
 }
