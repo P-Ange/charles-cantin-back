@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "seos",
+  "info": {
+    "name": "Seo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SiteName": {
+      "type": "string",
+      "required": true
+    },
+    "Favicon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "Metadescription": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
