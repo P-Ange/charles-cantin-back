@@ -1,4 +1,4 @@
-#[Evaluation de formation STUDI] Projet d'une application web pour le photographe Charles CANTIN.
+# [Evaluation de formation STUDI] Projet d'une application web pour le photographe Charles CANTIN.
 
 ## Procédure de mise en place
 - Cloner le fichier sur votre ordinateur avec
